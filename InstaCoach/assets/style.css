@@ -673,5 +673,77 @@ body{
     font-weight: 600;
     font-size: 13px;
 }
+}
 
+@media (max-width:375px) {
+    .work-img{
+        left: 1px;
+    }
+    .work-three .work-img {
+        height: 85vh;
+    }
+}
+@media (max-width:320px) {
+    .hero-img img {
+        height: 67%;
+        position: absolute;
+        right: -20px;
+    }
+    .hero-text p {
+        font-weight: 700;
+        font-size: 22px;
+    }
+    .hero-text h1 {
+        font-size: 35px;
+    }
+    .btn-lg {
+        width: 90vw;
+    }
+    .work-img {
+        height: 45vh;
+    }
+    .work h4 {
+        font-weight: 700;
+        font-size: 28px;
+        position: absolute;
+        top: 4px;
+        left: 32px;
+    }
+    .work-one .work-text::before {
+        top: -3rem;
+        left: 6rem;
+    }
+    .work .work-two h4 {
+        font-weight: 700;
+        font-size: 25px;
+        position: absolute;
+        top: -75px;
+        left: 40px;
+    }
+    .work-two .work-text::before {
+        top: -8rem;
+        left: 6rem;
+    }
+    .work .work-three h4 {
+        font-weight: 700;
+        font-size: 22px;
+        position: absolute;
+        top: -14rem;
+        left: 10px;
+    }
+    .work-three .work-text::before {
+        top: -18rem;
+        left: 5rem;
+    }
+    .work-three .work-img {
+        height: 70vh;
+    }
+    .work-three .work-img .work-second-img {
+        top: 18rem;
+        left: 9rem;
+    }
+    .work-three .work-img {
+        height: 75vh;
+    }
+    
 }
